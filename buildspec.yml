@@ -3,9 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      echo "Building static website..."
-      mkdir -p output
-      cp -r * output/
+      - echo "Building static website..."
+      - mkdir -p output
+      - cp -r * output/
 
 artifacts:
   files:
