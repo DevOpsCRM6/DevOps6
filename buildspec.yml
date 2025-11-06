@@ -3,9 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Building static website..."
+      - echo "Preparing files for deployment..."
       - mkdir -p output
-      - cp -r * output/
+      - cp -r DevOps6/wwwroot/* output/
 
 artifacts:
   files:
